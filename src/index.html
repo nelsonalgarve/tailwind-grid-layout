@@ -1,16 +1,46 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./output.css">
-    <title>Tailwind</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
 </head>
 
-<body style="margin: 30px ">
-    <h1 class="text-3xl font-semibold underline text-violet-950 py-10">Hello world!!</h1>
-    <button class="py-2 px-4 bg-blue-600 hover:bg-blue-400 text-white rounded">Tailwind</button>
+<body class="min-h-screen bg-slate-100 flex flex-col">
+    <header class="bg-red-500 basis-14 flex gap-x-1 p-2">
+        <div class="bg-gray-500 basis-52"></div>
+        <ul class="bg-teal-500 flex-auto flex gap-x-1 justify-end">
+            <li class="bg-orange-500 basis-36"></li>
+            <li class="bg-orange-500 basis-36"></li>
+            <li class="bg-orange-500 basis-36"></li>
+        </ul>
+    </header>
+    <main class="bg-blue-500 flex-auto flex p-2">
+        <aside class="bg-white basis-60 flex flex-col gap-y-1 p-2">
+            <div class="bg-red-400 basis-12"></div>
+            <div class="bg-red-400 basis-12"></div>
+            <div class="bg-red-400 basis-12"></div>
+        </aside>
+        <section class="flex-auto flex bg-amber-100 flex-wrap justify-center content-start p-2 gap-1">
+            <div class="bg-fuchsia-300 basis-48 h-36"></div>
+            <div class="bg-fuchsia-300 basis-48 h-36"></div>
+            <div class="bg-fuchsia-300 basis-48 h-36"></div>
+            <div class="bg-fuchsia-300 basis-48 h-36"></div>
+            <div class="bg-fuchsia-300 basis-48 h-36"></div>
+            <div class="bg-fuchsia-300 basis-48 h-36"></div>
+            <div class="bg-fuchsia-300 basis-48 h-36"></div>
+            <div class="bg-fuchsia-300 basis-48 h-36"></div>
+            <div class="bg-fuchsia-300 basis-48 h-36"></div>
+            <div class="bg-fuchsia-300 basis-48 h-36"></div>
+            <div class="bg-fuchsia-300 basis-48 h-36"></div>
+            <div class="bg-fuchsia-300 basis-48 h-36"></div>
+            <div class="bg-fuchsia-300 basis-48 h-36"></div>
+            <div class="bg-fuchsia-300 basis-48 h-36"></div>
+        </section>
+        <aside class="bg-white basis-60"></aside>
+    </main>
+    <footer class="bg-lime-500 basis-14"></footer>
 </body>
 
 </html>
