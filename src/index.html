@@ -7,16 +7,17 @@
     <link href="./output.css" rel="stylesheet" />
 </head>
 
-<body class="h-screen">
-    <div class="grid h-screen bg-sky-500 grid-cols-3 grid-rows-4 gap-1 grid-flow-row-dense">
-        <div class="bg-fuchsia-500">item-1</div>
-        <div class="bg-fuchsia-500 col-span-3">item-2</div>
-        <div class="bg-fuchsia-500 col-span-3">item-3</div>
-        <div class="bg-fuchsia-500">item-4</div>
-        <div class="bg-fuchsia-500">item-5</div>
-        <div class="bg-fuchsia-500">item-6</div>
-        <div class="bg-fuchsia-500">item-7</div>
-        <div class="bg-fuchsia-500">item-8</div>
+<body class="min-h-screen">
+    <div
+        class="grid h-screen  bg-sky-500 grid-cols-[repeat(3,_300px)] grid-rows-[repeat(3,_300px)] gap-1 grid-flow-row-dense *:selection:bg-keyLimePie-700 *:selection:text-slate-300 justify-center content-start pt-1 justify-items-center items-center">
+        <div class="bg-purpleHeart-400 w-20 h-20 place-self-start">item-2</div>
+        <div class="bg-amulet-500 w-20 h-20">item-1</div>
+        <div class="bg-ceriseRed-500 w-20 h-20">item-3</div>
+        <div class="bg-gray-500 w-20 h-20">item-4</div>
+        <div class="bg-william-300 p-1 text-william-700 w-20 h-20">item-5</div>
+        <div class="bg-keyLimePie-400 w-20 h-20">item-6</div>
+        <div class="bg-glacier-400 w-20 h-20">item-7</div>
+        <div class="bg-william-400 w-20 h-20">item-8</div>
 
     </div>
 
